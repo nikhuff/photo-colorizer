@@ -1,0 +1,3 @@
+https://www.pyimagesearch.com/wp-content/uploads/2015/01/opencv_logo.png
+https://www.pyimagesearch.com/wp-content/uploads/2015/01/google_logo.png
+https://www.pyimagesearch.com/wp-content/uploads/2014/12/adrian_face_detection_sidebar.png
