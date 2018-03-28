@@ -1,8 +1,8 @@
 import numpy as np
 from sklearn.neural_network import MLPRegressor
 from sklearn.externals import joblib
-# from keras.models import Sequential
-# from keras.layers import Conv2D, Dense, Activation
+from keras.models import Sequential
+from keras.layers import Conv2D, Dense, Activation
 
 def main():
     data_images, target_images = np.load('./assets/data.npy'), np.load('./assets/target.npy')
@@ -22,7 +22,7 @@ def main():
                 kernal[1][1] = image[row][column]
                 kernal[1][2] = image[row][column + 1]
                 kernal[2][0] = image[row + 1][column - 1]
-                kernal[2][1] = image[row + 1][column]`
+                kernal[2][1] = image[row + 1][column]
                 kernal[2][2] = image[row + 1][column + 1]
 
                 data.append(kernal)
